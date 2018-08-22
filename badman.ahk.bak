@@ -45,7 +45,7 @@ $CapsLock::
 		Send, {Ctrl down}
 		;升级体能
 		Sleep, 50
-		Click, 1277, 427, 6
+		Click, 1277, 427, 5
 		Sleep, 50
 		Send, {Ctrl up}
 		Sleep, 50
@@ -60,7 +60,7 @@ $CapsLock::
 		Send, {Ctrl down}
 		Click, 1280, 615
 		Click, 1272, 519
-		Click, 1278, 334, 6
+		Click, 1278, 334, 5
 		Sleep, 50
 		Send, {Ctrl up}
 		Sleep, 50

@@ -71,7 +71,7 @@ else{
 }
 
 return
-; 示例 #2: 简单的热键:
+; 示例 #2: 简单的热键:5
 ~CapsLock::
 KeyWait, CapsLock  ; 等待用户实际释放.
 MsgBox You pressed and released the CapsLock key.
@@ -83,14 +83,16 @@ var_msg_num:=1 ;
 $F3:: ;
 $F4:: ;
 { 
-    MsgBox, %var_msg_num% 
-var_msg_num:=1
-y=1
-var1:=var_msg_num++   ; var1=1, x=2
-var2:=++y   ; var2=2, y=2
-MsgBox, %var_msg_num%
-var3:=100 * (var_msg_num + 1)   
-MsgBox, %var3%
+    
+    SoundPlay, "notification_1.wav"
+;    MsgBox, %var_msg_num% 
+;var_msg_num:=1
+;y=1
+;var1:=var_msg_num++   ; var1=1, x=2
+;var2:=++y   ; var2=2, y=2
+;MsgBox, %var_msg_num%
+;var3:=100 * (var_msg_num + 1)   
+;MsgBox, %var3%
 }
 
 return
