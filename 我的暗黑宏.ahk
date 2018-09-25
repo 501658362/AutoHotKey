@@ -1,4 +1,5 @@
-﻿ 
+﻿;Run, 杀死脚本.bat
+;Sleep, 2000
 Run, 消息通知.exe
 
 
@@ -33,14 +34,12 @@ v_chat_icon_y:=1050 ;聊天icon的y坐标
 v_number_key:=1 ;小键盘和方向键功能开关 1=默认开； 0=关
 
 v_skill_flag:=0 ;宏技能开关
-v_current_hero:=0 ;当前英雄 0=圣教军 1=魔法师
-v_current_hero_name:="圣教军"
-if(v_current_hero=1){
-	v_current_hero_name:="魔法师"
-}
+v_current_hero:=1 ;当前英雄 1=圣教军 2=魔法师 3=武僧
+v_current_hero_name:="圣教军" 
 v_skill_state:=0 ;技能符文开关 0=吸 1=顺爆
 
 #Include 魔法师.ahk
+#Include 金钟武僧.ahk
 
 var_msg_num:=0
 
@@ -75,11 +74,11 @@ changeHero(x){
 	global v_current_hero_name
 	if(x = 1){  
 		showMsg("修改英雄为魔法师")
-		v_current_hero:=1 ;当前英雄 0=圣教军 1=魔法师
+		v_current_hero:=2 ;当前英雄 1=圣教军 2=魔法师 3=武僧
 		v_current_hero_name:="魔法师"
 	}else if (x = 2){
 		showMsg("修改英雄为圣教军")
-		v_current_hero:=0 ;当前英雄 0=圣教军 1=魔法师
+		v_current_hero:=1 ;当前英雄 1=圣教军 2=魔法师 3=武僧
 		v_current_hero_name:="圣教军"
 	}
 
@@ -146,6 +145,7 @@ moveToMe(){
 changeWin(x = 1){
 	
 	global v_loop
+	global v_current_hero
 	stop()
 	var_firstPId:=0
 	;获取暗黑的游戏窗口
@@ -168,12 +168,13 @@ changeWin(x = 1){
 		if(x = 1){
 			showMsg("开启大秘境 其他角色接受")
 			; 开启大秘境 其他角色接受
-			if(A_Index = 1){ 
-				  ;点击大秘境
-				  Click, 270, 480
-				  Sleep, 10
-				  ;点击开启
-				  Click, 270, 846
+			if(A_Index = 1){
+				Sleep, 50
+				;点击大秘境
+				Click, 270, 480
+				Sleep, 50
+				;点击开启
+				Click, 270, 846
 			}else{
 				;跳转其他窗口
 				WinActivate, ahk_id %this_id%
@@ -243,14 +244,22 @@ changeWin(x = 1){
 		}else if(x = 5){
 			showMsg("小号回城")
 			;小号扔装备
-			Send, {e}
+			
 			if(A_Index > 1){
 				;跳转窗口 
 				WinActivate, ahk_id %this_id%
-				Sleep, 100
-				Send, {e}
-				Send, {r}
+			 
+				;if(v_current_hero = 3){
+					;Click, Right
+				;}else{
+					Send, {e}
+					Send, {r}
+				;}
+		 
+				 Sleep,50
 				Send, {T} 
+			}else{
+				Send, {e}
 			}
 		}
 	}
@@ -344,9 +353,11 @@ start() {
 	showMsg("开启" v_current_hero_name "技能")
 	
  
-	if(v_current_hero = 1){
+	if(v_current_hero = 2){
 		v_loop:=1
 		SetTimer, WizardSkill, 100
+	}else if (v_current_hero = 3){ 
+		MonkSkillStart()
 	}else{
 		CrusaderSkillStart()
 	}
@@ -368,9 +379,11 @@ stop() {
 	if(v_skill_flag = 1){
 		showMsg("关闭" v_current_hero_name "技能")
 	}
-	if(v_current_hero = 1){
+	if(v_current_hero = 2){
 		v_loop:=0
 		SetTimer, WizardSkill, off
+	}else if (v_current_hero = 3){
+		MonkSkillStop()
 	}else{
 		CrusaderSkillStop()
 	}
@@ -736,6 +749,22 @@ getPicName(){
 	;|C:\Users\Chen\Desktop\dm\gameimg\套装连枷.bmp
 }
 
+changeHeroSkill(x = 0){
+	global v_current_hero
+	global v_current_hero_name
+	v_current_hero:=x ;当前英雄 1=圣教军 2=魔法师 3=武僧
+	if(x = 1){
+		v_current_hero_name:="圣教军"
+	}else if(x = 2){
+		v_current_hero_name:="魔法师"
+	}else if (x = 3){
+		v_current_hero_name:="武僧"
+	}else{
+		v_current_hero_name:="圣教军"
+	}
+	showMsg("切换" v_current_hero_name "技能")
+}
+return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; keyStart
 
@@ -762,6 +791,25 @@ SendLevel 1
 Send {NumpadEnter}
 
 #if v_trg = 0 and WinActive("ahk_class D3 Main Window Class")
+
+
+$^1::
+{
+	changeHeroSkill(1)
+}
+return
+
+$^2::
+{
+	changeHeroSkill(2)
+}
+return
+
+$^3::
+{
+	changeHeroSkill(3)
+}
+return
 
 
 ;$k::
@@ -928,6 +976,56 @@ getMs(distance){
 
 }
 
+; 批量升级黄装
+forEachUpdate(x = 1){
+ 
+	global v_loop
+	global v_package_x_p
+	global v_package_y_p
+	global v_package_x_to_x
+	global v_package_y_to_y
+	global v_number_key
+	if(!v_number_key){
+		return
+	}
+	if(x = 1){
+		showMsg("批量升级单格稀有装备")
+	}else{
+		showMsg("批量升级双格稀有装备")
+	}
+	
+	 
+
+
+	v_cp:=v_package_x_p
+	v_c_y:=v_package_y_p
+	v_loop:=1
+	Loop, 6{
+		Loop, 8
+		{
+			
+			if(v_loop=1){
+				MouseMove, v_cp, v_c_y, 0
+				v_cp:=v_cp+v_package_x_to_x
+				updateWeapon(v_cp)
+				Click Right ;
+			}
+
+		}
+		v_cp:=v_package_x_p
+		if(x = 1){
+			v_c_y:=v_c_y+v_package_y_to_y
+		}else{
+			v_c_y:=v_c_y+v_package_y_to_y+v_package_y_to_y
+		}
+	
+	}
+ 
+ 
+	 
+	destroyGui()
+}
+
 MouseLButton1:
 {
 	global v_loop
@@ -1039,80 +1137,14 @@ Return
 
 $NumpadLeft:: ; 批量升级双格稀有装备 4
 {
-	if(!v_number_key){
-		return
-	}
-	showMsg("批量升级双格稀有装备")
-	
-	v_cp:=1540
-	Loop, 8
-	{
-	
-		MouseMove, v_cp, 612 ,0
-		v_cp:=v_cp+50
-		updateWeapon(v_cp)
-		Click Right ;
-	}
-	
-	v_cp:=1540
-	Loop, 8
-	{
-		MouseMove, v_cp, 712 ,0
-		v_cp:=v_cp+50
-		updateWeapon(v_cp)
-		Click Right ;
-	}
-	
-	v_cp:=1590
-	Loop, 7
-	{ 
-		MouseMove, v_cp, 812 ,0
-		v_cp:=v_cp+50
-		updateWeapon(v_cp) 
-		Click Right ;
-	}
-	destroyGui()
+	forEachUpdate(2)
 }
 return
 
 $NumpadClear:: ; 批量升级单格稀有装备 5
 { 
 
-
-	if(!v_number_key){
-		return
-	}
-	showMsg("批量升级单格稀有装备")
-	 
- 
-	global v_loop
-	global v_package_x_p
-	global v_package_y_p
-	global v_package_x_to_x
-	global v_package_y_to_y
-
-	v_cp:=v_package_x_p
-	v_c_y:=v_package_y_p
-	v_loop:=1
-	Loop, 6{
-		Loop, 8
-		{
-			
-			if(v_loop=1){
-				MouseMove, v_cp, v_c_y, 0
-				v_cp:=v_cp+v_package_x_to_x
-				updateWeapon(v_cp)
-				Click Right ;
-			}
-
-		}
-		v_cp:=v_package_x_p
-		v_c_y:=v_c_y+v_package_y_to_y
-	}
- 
- 
-	 
-	destroyGui()
+	forEachUpdate(1)
 } 
 Return 
 
@@ -1151,8 +1183,18 @@ $F2:: ; 循环点击25次右键
 } 
 Return 
 
-$NumpadUp:: ;批量敲碎装备   8 +
-$NumpadAdd:: ;批量敲碎装备   8 +
+$NumpadUp:: ;附魔   8 +
+{
+	Click, 161, 391
+	Sleep, 50
+	Click, 272, 785
+	Sleep, 50
+	Click, 272, 785
+	
+	
+}
+return	
+$NumpadAdd:: ;批量敲碎装备   +
 {  
 	if(!v_number_key){
 		return
@@ -1173,12 +1215,15 @@ $NumpadAdd:: ;批量敲碎装备   8 +
 Return 
 
 
-$NumpadPgUp:: ; 开启右键 9
+$NumpadPgUp:: ; 重铸装备 9
 { 
 
-	showMsg("开启右键")
-	Click, Right
-	SetTimer, MouseRButton, 20650
+	showMsg("重铸装备")
+	Click, 720, 843
+	Sleep, 50
+	Click, 239, 827
+	MouseMove, 1538, 600
+	;SetTimer, MouseRButton, 20650
 } 
 Return 
 
@@ -1201,7 +1246,9 @@ $NumpadMult:: ;重启导航插件 *
 		return
 	}
 	showMsg("重启导航插件")
-	Run, taskkill /f /im TurboHUD.exe 
+
+	Send {end up}
+	Run, 杀死导航.bat
 	Sleep, 1000
 	run C:\Users\Chen\Desktop\TurboHUDEn\TurboHUD.exe
 	destroyGui()
@@ -1316,7 +1363,7 @@ $CapsLock::
 		Send, {Ctrl down}
 		;升级体能
 		Sleep, 50
-		Click, 1277, 427, 6
+		Click, 1277, 427, 10
 		Sleep, 50
 		Send, {Ctrl up}
 		Sleep, 50
@@ -1331,7 +1378,7 @@ $CapsLock::
 		Send, {Ctrl down}
 		Click, 1280, 615
 		Click, 1272, 519
-		Click, 1278, 334, 6
+		Click, 1278, 334, 10
 		Sleep, 50
 		Send, {Ctrl up}
 		Sleep, 50
@@ -1422,8 +1469,7 @@ changeWin(pause_presses)
 pause_presses = 0
 return
 
-
-#maxThreadsPerHotkey, 2 
+ 
 $XButton1:: ; 技能开关键， 
 { 
 	 
@@ -1437,3 +1483,5 @@ $XButton1:: ; 技能开关键，
 	}
 } 
 Return 
+
+#if

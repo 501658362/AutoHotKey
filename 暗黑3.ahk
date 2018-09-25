@@ -1,3 +1,5 @@
+﻿#IfWinActive,ahk_class D3 Main Window Class 
+
 em:=0
 NumpadDel:: ; 
 { 
@@ -30,4 +32,27 @@ NumpadDel:: ;
 } 
 Return 
  
+$^w::
+{
+  Run, 杀死脚本.bat
+  showMsg("杀死脚本")
+}
+return
+
+$^r::
+{
+  showMsg("启动脚本")
+  Run, 我的暗黑宏.exe
+}
+return
   
+;显示通知 
+showMsg(str, y = 50){ 
+	if(StrLen(str) = 0){
+		return
+	}
+ 
+	FileDelete, msg.txt
+	FileAppend, %str%,  msg.txt
+  return
+}

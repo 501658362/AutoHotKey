@@ -1,1 +1,7 @@
-ToolTip, Multiline`nTooltip, 100, 150
+$k::
+{ 
+	Send, ^{End}
+ 
+}
+
+return
