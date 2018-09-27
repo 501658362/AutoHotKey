@@ -399,7 +399,7 @@ stop() {
 CrusaderSkillStart(){
 	
 	SetTimer, Label1, 100 ;动作条技能1键600毫秒连点，对应天谴技能，600可改动
-	SetTimer, Label2, 250 ;动作条技能2键600毫秒连点关闭挑衅自动按，600可改动，这里建议还是开启自动按
+	SetTimer, Label2, 600 ;动作条技能2键600毫秒连点关闭挑衅自动按，600可改动，这里建议还是开启自动按
 	SetTimer, Label3, 20 ;动作条技能3键600毫秒连点关闭律法自动按，off可改动，
 	SetTimer, Label4, 100 ;动作条技能4键600毫秒连点，对应勇士技能，600可改动
 	SetTimer, MouseLButton, 150 ;鼠标左键150毫秒连点，150可改动
@@ -1183,7 +1183,7 @@ $F2:: ; 循环点击25次右键
 } 
 Return 
 
-$NumpadUp:: ;附魔   8 +
+$NumpadUp:: ;附魔   8 
 {
 	Click, 161, 391
 	Sleep, 50
