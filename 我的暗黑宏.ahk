@@ -53,7 +53,7 @@ if(ver){
 	var_msg:="加载大漠的插件失败"
 	showMsg(var_msg, 500)
 }
-destroyGui()
+
  
  
 
@@ -115,7 +115,7 @@ changeHero(x){
 		Sleep, 1000
 		gotoFirstA()
 	}
-	destroyGui()
+	
 
 }
 
@@ -271,7 +271,7 @@ changeWin(x = 1){
 	}
 	showMsg("已切回第一个游戏", 100)
 	moveToCenter() 
-	destroyGui()
+	
 	
 }
  
@@ -363,7 +363,7 @@ start() {
 	}
 	
 	v_skill_flag:=1
-	destroyGui()
+	
 }
 
 stop() {
@@ -392,7 +392,7 @@ stop() {
 	v_skill_flag:=0
 	v_aotu_pick:=0
 	
-	destroyGui()
+	
 }
 
 
@@ -576,10 +576,6 @@ showMsg(str, y = 50){
 	FileAppend, %str%,  msg.txt
  
 }
-destroyGui(ms = 500){ 
-	Gui, destroy
-}
-
 
 
 ~m:: ;回车打字关闭宏
@@ -736,7 +732,6 @@ getBm(){
 		dm:=ComObjCreate("dm.dmsoft")
 		
 		showMsg("重新加载dm" dm.ver())
-		destroyGui(200)
 	} 
 	return dm
 }
@@ -783,7 +778,7 @@ $NumpadEnter::
 		showMsg("开")
 		v_trg:=0
 	}
-		destroyGui()
+		
 	
 }
 return
@@ -828,7 +823,7 @@ $del::
 	v_loop := 1
 	showMsg("新版自动捡装备")
     newPickUp()
-	destroyGui()
+	
 }
 return
 times:=18
@@ -1023,7 +1018,7 @@ forEachUpdate(x = 1){
  
  
 	 
-	destroyGui()
+	
 }
 
 MouseLButton1:
@@ -1067,7 +1062,7 @@ $NumpadIns:: ; 分解普通材料 0
 		moveToCenter()
 		closeChatInput()
 		
-		destroyGui()
+		
 	}
 
 } 
@@ -1079,7 +1074,7 @@ $NumpadEnd:: ; 停止循环 1
 	}
  	showMsg("停止循环")
 	v_loop:=0	
-	destroyGui()
+	
 } 
 Return  
 
@@ -1098,7 +1093,7 @@ $NumpadDown:: ; 升级宝石 5次 2
 		updateGem(A_Index, 5)
 	}
 	Send {T}
-	destroyGui()
+	
 } 
 Return  
  
@@ -1111,7 +1106,7 @@ $NumpadPgDn:: ; 传送到我这 3
 	}
 	showMsg("传送到我这")
 	moveToMe()
-	destroyGui()
+	
 } 
 Return  
 
@@ -1130,7 +1125,7 @@ $F1:: ; 连点鼠标左键 捡东西
 		v_aotu_pick:=0
 		SetTimer, MouseLButton, off ;关闭左键连点计时器，off不可改动
 	}
-	destroyGui()
+	
 } 
 Return  
  
@@ -1162,7 +1157,7 @@ $NumpadRight:: ;悬赏开关键 6
 		showMsg("悬赏关")
 	}
 
-	destroyGui()
+	
 } 
 Return 
 
@@ -1179,7 +1174,7 @@ $F2:: ; 循环点击25次右键
 		Click Right ;点击鼠标右键 
 		Sleep, 10
 	}
-	destroyGui()
+	
 } 
 Return 
 
@@ -1210,7 +1205,7 @@ $NumpadAdd:: ;批量敲碎装备   +
 	moveToCenter()
 	
 	Click Right ; 
-	destroyGui()
+	
 } 
 Return 
 
@@ -1235,7 +1230,7 @@ $NumpadSub:: ; 批量扔装备 -
 	showMsg("批量扔装备")
 	v_loop:=1 
 	knock(2) 
-	destroyGui()
+	
 }
 return
 
@@ -1251,7 +1246,7 @@ $NumpadMult:: ;重启导航插件 *
 	Run, 杀死导航.bat
 	Sleep, 1000
 	run C:\Users\Chen\Desktop\TurboHUDEn\TurboHUD.exe
-	destroyGui()
+	
 }
 Return 
 
@@ -1262,7 +1257,7 @@ $NumpadDiv:: ;移动到第一幕 /
 	}
 	showMsg("移动到第一幕")
 	gotoFirstA()
-	destroyGui()
+	
 }
 Return 
  
@@ -1294,7 +1289,7 @@ $left::
 	}
 	v_loop:=1
 	pickUp()
-	destroyGui()
+	
 	
 }
 return
@@ -1308,7 +1303,7 @@ $down::
 	showMsg("小号扔装备")
 	changeWin(4)
 	moveToCenter() 
-	destroyGui()
+	
 }
 return
 
@@ -1321,7 +1316,7 @@ $up::
 	showMsg("升级宝石")
 	; 升级宝石
 	newUpdateGem(3) 
-	destroyGui()
+	
 }
 return
 
@@ -1388,7 +1383,7 @@ $CapsLock::
 	MouseMove, x1, y1
 	BlockInput off
 	;movetocenter()
-	destroyGui()
+	
 }
 Return
 
@@ -1417,7 +1412,7 @@ $PgUp::
 		Click, 959, 817
 		v_skill_state:=!v_skill_state
 	}
-	destroyGui()
+	
 }
 Return
 
@@ -1426,7 +1421,7 @@ Return
 $Home::
 {
 	changeWin(5)
-	destroyGui()
+	
 }
 Return
 
@@ -1441,7 +1436,7 @@ $PgDn::
 	}else{
 		showMsg("小键盘宏关闭")
 	}
-	destroyGui()
+	
 }
 Return
 

@@ -82,12 +82,12 @@ $PgUp::
 		;打开技能栏
 		send, {s}
 		;选择天谴
-		Click, 1165, 380 
+		Click, 1165, 380
 		if(v_skill_state){
 			showMsg("天谴瞬爆")
 			;选择顺爆
 			Click, 892, 434
-			 
+
 		}else{
 			showMsg("聚能强吸")
 			; 聚能强吸
@@ -112,7 +112,7 @@ $Home::
 }
 Return
 
- 
+
 
 ; 小键盘宏启用和关闭
 $PgDn::
