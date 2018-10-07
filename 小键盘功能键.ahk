@@ -1,6 +1,4 @@
-﻿#Include public.ahk
-
-
+﻿
 $NumpadIns:: ; 分解普通材料 0
 {   
 	if(v_number_key = 1){
@@ -25,7 +23,7 @@ $NumpadIns:: ; 分解普通材料 0
 		moveToCenter()
 		closeChatInput()
 		
-		destroyGui()
+		
 	}
 
 } 
@@ -37,11 +35,9 @@ $NumpadEnd:: ; 停止循环 1
 	}
  	showMsg("停止循环")
 	v_loop:=0	
-	destroyGui()
+	
 } 
 Return  
-
-
 
 $NumpadDown:: ; 升级宝石 5次 2
 { 
@@ -56,7 +52,7 @@ $NumpadDown:: ; 升级宝石 5次 2
 		updateGem(A_Index, 5)
 	}
 	Send {T}
-	destroyGui()
+	
 } 
 Return  
  
@@ -69,101 +65,22 @@ $NumpadPgDn:: ; 传送到我这 3
 	}
 	showMsg("传送到我这")
 	moveToMe()
-	destroyGui()
+	
 } 
 Return  
 
-$NumpadLeft:: ; 连点鼠标左键 捡东西 4
-$F1:: ; 连点鼠标左键 捡东西
+
+
+$NumpadLeft:: ; 批量升级双格稀有装备 4
+{
+	forEachUpdate(2)
+}
+return
+
+$NumpadClear:: ; 批量升级单格稀有装备 5
 { 
-	if(!v_number_key){
-		return
-	}
-	if(v_aotu_pick=0){
-		showMsg("开启鼠标左键连点")
-		SetTimer, MouseLButton, 150 ;鼠标左键150毫秒连点，150可改动
-		v_aotu_pick:=1
-	}else{
-		showMsg("关闭鼠标左键连点")
-		v_aotu_pick:=0
-		SetTimer, MouseLButton, off ;关闭左键连点计时器，off不可改动
-	}
-	destroyGui()
-} 
-Return  
- 
 
-
-$NumpadClear:: ; 批量升级双格稀有装备 5
-{ 
-;if(!v_number_key){
-;	return
-;}
-;showMsg("批量升级双格稀有装备")
-;
-;v_cp:=1540
-;Loop, 8
-;{
-;
-;	MouseMove, v_cp, 612 ,0
-;	v_cp:=v_cp+50
-;	updateWeapon(v_cp)
-;	Click Right ;
-;}
-;
-;v_cp:=1540
-;Loop, 8
-;{
-;	MouseMove, v_cp, 712 ,0
-;	v_cp:=v_cp+50
-;	updateWeapon(v_cp)
-;	Click Right ;
-;}
-;
-;v_cp:=1590
-;Loop, 7
-;{ 
-;	MouseMove, v_cp, 812 ,0
-;	v_cp:=v_cp+50
-;	updateWeapon(v_cp) 
-;	Click Right ;
-;}
-;destroyGui()
-
-	if(!v_number_key){
-		return
-	}
-	showMsg("批量升级单格稀有装备")
-	 
- 
-	global v_loop
-	global v_package_x_p
-	global v_package_y_p
-	global v_package_x_to_x
-	global v_package_y_to_y
-
-	v_cp:=v_package_x_p
-	v_c_y:=v_package_y_p
-
-	Loop, 6{
-		Loop, 8
-		{
-			
-			if(v_loop=1){
-				MouseMove, v_cp, v_c_y, 0
-				v_cp:=v_cp+v_package_x_to_x
-				updateWeapon(v_cp)
-				Click Right ;
-			}
-
-		}
-		v_cp:=v_package_x_p
-		v_c_y:=v_c_y+v_package_y_to_y
-	}
- 
- 
-	 
-	destroyGui()
+	forEachUpdate(1)
 } 
 Return 
 
@@ -175,35 +92,58 @@ $NumpadRight:: ;悬赏开关键 6
 		return
 	}
 	v_comisson:=!v_comisson 
-	if(v_comisson = 1){
+	v_change_weapon:=!v_change_weapon
+	if(v_comisson = 1 or v_change_weapon = 1){
 		showMsg("悬赏开")
 	}else{
 		showMsg("悬赏关")
 	}
 
-	destroyGui()
+	
 } 
 Return 
 
-$NumpadHome:: ;循环点击25次右键 7
-$F2:: ; 循环点击25次右键
-{ 
+;$NumpadHome:: ;循环点击25次右键 7
+
+
+$NumpadUp:: ;附魔   8 
+{
+	Click, 161, 391
+	Sleep, 50
+	Click, 272, 785
+	Sleep, 50
+	Click, 272, 785
 	
+	
+}
+return	
+
+$NumpadPgUp:: ; 重铸装备 9
+{ 
+
+	showMsg("重铸装备")
+	Click, 720, 843
+	Sleep, 50
+	Click, 239, 827
+	MouseMove, 1538, 600
+	;SetTimer, MouseRButton, 20650
+} 
+Return 
+
+$NumpadSub:: ; 批量扔装备 -
+{
 	if(!v_number_key){
 		return
 	}
-	showMsg("循环点击25次右键")
-	Loop, 25
-	{
-		Click Right ;点击鼠标右键 
-		Sleep, 10
-	}
-	destroyGui()
-} 
-Return 
+	showMsg("批量扔装备")
+	v_loop:=1 
+	knock(2) 
+	
+}
+return
 
-$NumpadUp:: ;批量敲碎装备   8 +
-$NumpadAdd:: ;批量敲碎装备   8 +
+
+$NumpadAdd:: ;批量敲碎装备   +
 {  
 	if(!v_number_key){
 		return
@@ -219,24 +159,10 @@ $NumpadAdd:: ;批量敲碎装备   8 +
 	moveToCenter()
 	
 	Click Right ; 
-	destroyGui()
-} 
-Return 
-
-
-$NumpadPgUp:: ; 批量扔装备  - 9
-$NumpadSub:: ; 批量扔装备 - 9
-{ 
 	
-	if(!v_number_key){
-		return
-	}
-	showMsg("批量扔装备")
-	v_loop:=1 
-	knock(2) 
-	destroyGui()
 } 
 Return 
+
 
 $NumpadMult:: ;重启导航插件 *
 {	
@@ -244,10 +170,12 @@ $NumpadMult:: ;重启导航插件 *
 		return
 	}
 	showMsg("重启导航插件")
-	Run, taskkill /f /im TurboHUD.exe 
+
+	Send {end up}
+	Run, 杀死导航.bat
 	Sleep, 1000
 	run C:\Users\Chen\Desktop\TurboHUDEn\TurboHUD.exe
-	destroyGui()
+	
 }
 Return 
 
@@ -258,6 +186,6 @@ $NumpadDiv:: ;移动到第一幕 /
 	}
 	showMsg("移动到第一幕")
 	gotoFirstA()
-	destroyGui()
+	
 }
 Return 

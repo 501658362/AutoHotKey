@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22218682-2a45-45e3-9137-9311f40f5ad4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badman.ahk" beforeDir="false" afterPath="$PROJECT_DIR$/badman.ahk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badman.ahk.bak" beforeDir="false" afterPath="$PROJECT_DIR$/badman.ahk.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmm.ahk" beforeDir="false" afterPath="$PROJECT_DIR$/mmm.ahk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmm.ahk.bak" beforeDir="false" afterPath="$PROJECT_DIR$/mmm.ahk.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/奥陨2.ahk" beforeDir="false" afterPath="$PROJECT_DIR$/奥陨2.ahk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/小键盘功能键.ahk" beforeDir="false" afterPath="$PROJECT_DIR$/小键盘功能键.ahk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/我的暗黑宏.ahk" beforeDir="false" afterPath="$PROJECT_DIR$/我的暗黑宏.ahk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/我的暗黑宏.exe" beforeDir="false" afterPath="$PROJECT_DIR$/我的暗黑宏.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/方向键功能键.ahk" beforeDir="false" afterPath="$PROJECT_DIR$/方向键功能键.ahk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/无人深空.ahk" beforeDir="false" afterPath="$PROJECT_DIR$/无人深空.ahk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/显示通知.ahk" beforeDir="false" afterPath="$PROJECT_DIR$/显示通知.ahk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消息通知.ahk" beforeDir="false" afterPath="$PROJECT_DIR$/消息通知.ahk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消息通知.exe" beforeDir="false" afterPath="$PROJECT_DIR$/消息通知.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/金钟武僧.ahk" beforeDir="false" afterPath="$PROJECT_DIR$/金钟武僧.ahk" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,16 +30,33 @@
       <file leaf-file-name="badman.ahk" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/badman.ahk">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+            <state relative-caret-position="280">
+              <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#maxThreadsPerHotkey</find>
+      <find>Shift</find>
+      <find>forceClick</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Chen\Desktop\ahk</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/badman.ahk" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -38,8 +69,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1289" />
-    <option name="height" value="1047" />
+    <option name="y" value="57" />
+    <option name="width" value="1281" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -94,22 +126,25 @@
       <workItem from="1532746128462" duration="84000" />
       <workItem from="1537977040807" duration="610000" />
       <workItem from="1538223850546" duration="9000" />
+      <workItem from="1538756953255" duration="908000" />
+      <workItem from="1538849934808" duration="722000" />
+      <workItem from="1538890842336" duration="950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1048000" />
+    <option name="totallyTimeSpent" value="3628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -133,6 +168,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/badman.ahk">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="132" column="14" lean-forward="true" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/badman.ahk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/badman.ahk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/badman.ahk">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2400">
           <caret line="120" column="21" lean-forward="true" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
         </state>
@@ -140,8 +196,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/badman.ahk">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+        <state relative-caret-position="280">
+          <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
         </state>
       </provider>
     </entry>

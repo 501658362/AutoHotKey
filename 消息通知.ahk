@@ -6,7 +6,7 @@ while(true){
 	showMsg(line)
 	destroyGui()
 	}
-	Sleep, 50
+	Sleep, 150
 
 
 }

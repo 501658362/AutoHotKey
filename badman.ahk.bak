@@ -151,8 +151,6 @@ changeWin(pause_presses)
 pause_presses = 0
 return
 
-
-#maxThreadsPerHotkey, 2 
 $XButton1:: ; 技能开关键， 
 { 
 	 

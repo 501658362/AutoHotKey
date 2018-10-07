@@ -1,4 +1,4 @@
-#maxThreadsPerHotkey, 2 
+;#maxThreadsPerHotkey, 2
 
 v_Enable=0 
 $XButton2:: ;F1开关

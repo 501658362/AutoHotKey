@@ -1,6 +1,6 @@
 ﻿#IfWinActive,ahk_class GLFW30
 
-#maxThreadsPerHotkey, 2 
+;#maxThreadsPerHotkey, 2
 v_trg=:0
 
 $F5::

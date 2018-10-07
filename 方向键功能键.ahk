@@ -1,5 +1,5 @@
-﻿#Include public.ahk
-
+﻿
+ 
 ; 切换英雄  1是魔法师 2是圣教军
 $Right::
 if right_presses > 0 ; SetTimer 已经启动, 所以我们记录键击.
@@ -28,7 +28,7 @@ $left::
 	}
 	v_loop:=1
 	pickUp()
-	destroyGui()
+	
 	
 }
 return
@@ -42,7 +42,7 @@ $down::
 	showMsg("小号扔装备")
 	changeWin(4)
 	moveToCenter() 
-	destroyGui()
+	
 }
 return
 
@@ -55,6 +55,7 @@ $up::
 	showMsg("升级宝石")
 	; 升级宝石
 	newUpdateGem(3) 
-	destroyGui()
+	
 }
 return
+
