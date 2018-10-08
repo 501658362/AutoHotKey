@@ -1,5 +1,8 @@
 暗黑3.ahk
-暗黑3.exe
 *.exe
 .idea
 .idea/*
+*.ahk.bak
+
+gameId*.txt
+*.lnk
