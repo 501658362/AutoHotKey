@@ -582,8 +582,6 @@ MouseLButton1:
 	
 
 }
-Return
- 
  
 getBm(){
 	global dm
@@ -623,8 +621,6 @@ changeHeroSkill(x = 0){
 	}
 	showMsg("切换" v_current_hero_name "技能")
 }
-return
-
 
 newPickUp(){
 	
@@ -732,3 +728,10 @@ forEachUpdate(x = 1){
 	}
 }
 
+sleep(ms){
+    global v_loop
+    v_time:=ms/50
+    Loop, %v_time%{
+        sleep, 50
+    }
+}

@@ -1,16 +1,13 @@
 ﻿
 while(true){
 	if FileExist("msg.txt"){
-			FileReadLine, line, msg.txt,1
-	FileDelete, msg.txt 
-	showMsg(line)
-	destroyGui()
+        FileReadLine, line, msg.txt,1
+        FileDelete, msg.txt
+        showMsg(line)
+        destroyGui()
 	}
 	Sleep, 150
-
-
 }
- 
 
 ;显示通知 
 showMsg(str, y = 50){ 

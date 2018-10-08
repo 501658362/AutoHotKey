@@ -11,224 +11,28 @@ WizardSkill:
 	if(v_loop=1){
 		;电刑
 		send, {e down} ;
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
+		sleep(1600)
 		send,  {e up} ;
 	}
 
 	
 	if(v_loop=1){
 		;陨石
-		send,  {Q} ;
+		send, {Q} ;
 	}
 
 	if(v_loop=1){
 
 		;电刑
 		send,  {e down} ;
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		}  
+		sleep(1250)
 		send,  {e up} ;
 	}
 
 	if(v_loop=1){
 		;洪流
 		send,  {W down} ;
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
-		if(v_loop=1){
-			sleep,  50
-		} 
- 
+		sleep(450)
 		send,  {W up} 
 	}
 
