@@ -1,4 +1,4 @@
-
+﻿
 ;显示通知 
 showMsg(str, y = 50){ 
 	if(StrLen(str) = 0){
@@ -17,5 +17,5 @@ showMsg(str, y = 50){
  
 	FileDelete, msg.txt
 	FileAppend, %str%,  msg.txt
- 
+	Run, 消息通知.exe
 }

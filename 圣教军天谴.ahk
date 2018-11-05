@@ -4,12 +4,12 @@ crusaderSkillOn:=0
 CrusaderSkillStart(){
 	global crusaderSkillOn
 	crusaderSkillOn:=1
-	SetTimer, Label1, 100 ;动作条技能1键600毫秒连点，对应天谴技能，600可改动
-	SetTimer, Label2, 600 ;动作条技能2键600毫秒连点关闭挑衅自动按，600可改动，这里建议还是开启自动按
-	SetTimer, Label3, 20 ;动作条技能3键600毫秒连点关闭律法自动按，off可改动，
+	SetTimer, Label1, 500 ;动作条技能1键600毫秒连点，对应天谴技能，600可改动
+	SetTimer, Label2, 650 ;动作条技能2键600毫秒连点关闭挑衅自动按，600可改动，这里建议还是开启自动按
+	SetTimer, Label3, 50 ;动作条技能3键600毫秒连点关闭律法自动按，off可改动，
 	SetTimer, Label4, 100 ;动作条技能4键600毫秒连点，对应勇士技能，600可改动
 	SetTimer, MouseLButton, 150 ;鼠标左键150毫秒连点，150可改动
-	;SetTimer, MouseRButton, 300 ;鼠标右键600毫秒连点关闭钢甲自动按，off可改动
+	SetTimer, MouseRButton, 500 ;鼠标右键600毫秒连点关闭钢甲自动按，off可改动
 	Send {space down} ;按住强制移动键x，x可改动
 }
 
@@ -24,19 +24,37 @@ CrusaderSkillStop(){
 }
  
 
-#if crusaderSkillOn=1
+#if crusaderSkillOn=1 and v_comisson = 1
 
-~RButton:: ;
+$RButton:: ;
 { 
-	runFast(v_comisson)
+	stop()
+	Click Right
+	Send {space down} ;按住强制移动键x，x可改动
+	Sleep, 2800  ; 2.8 秒
+	start()
 }
 Return
 
 ~LButton:: ;
 { 
-	clickStart(v_comisson)
+	start()
 }
 Return
+
+;战马方法
+runFast(x) {
+	If (x=0){
+		;MsgBox, Text1
+	}
+	Else{
+		;MsgBox, Text2
+		stop()
+		Send {space down} ;按住强制移动键x，x可改动
+		Sleep, 2800  ; 2.8 秒
+		start()
+	}
+}
 
 #if
 

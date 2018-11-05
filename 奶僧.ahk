@@ -39,51 +39,55 @@ naiMonkSkillStop(){
 	;1=赶路 2=站桩包精英 3=boss
 	 
 	
-	SetTimer, Label1, off ;关闭技能1连点计时器，off不可改动
-	SetTimer, Label2, off ;关闭技能2连点计时器，off不可改动
-	SetTimer, Label3, off ;关闭技能3连点计时器，off不可改动
-	SetTimer, Label4, off ;关闭技能4连点计时器，off不可改动
-	SetTimer, MouseLButton, off ;关闭左键连点计时器，off不可改动
-	SetTimer, MouseRButton, off ;关闭右键连点计时器，off不可改动
+	SetTimer, Label1, off ; 
+	SetTimer, Label2, off ; 
+	SetTimer, Label3, off ; 
+	SetTimer, Label4, off ; 
+	SetTimer, MouseLButton, off ; 
+	SetTimer, MouseRButton, off ; 
 	 
-	Send {space up} ;松开强制移动键x，x可改动
+	Send {space up} ; 
 	
  
 }
 return
 
+;boss
 naiMonkFightBoss(){
 	 
- 	SetTimer, Label1, 300 ;动作条技能1键600毫秒连点 
-	;SetTimer, Label2, 250 ;动作条技能2键600毫秒连点 
-	SetTimer, Label3, 400 ;动作条技能3键600毫秒连点 
-	SetTimer, Label4, 200 ;动作条技能4键600毫秒连点 
-	;SetTimer, MouseLButton, 200 ;鼠标左键150毫秒连点 
-	SetTimer, MouseRButton, 3000 ;鼠标右键600毫秒连 
+ 	SetTimer, Label1, 300 ;  
+	;SetTimer, Label2, 250 ;  
+	;SetTimer, Label3, 400 ;  
+	SetTimer, Label4, 200 ;  
+	;SetTimer, MouseLButton, 200 ;  
+	SetTimer, MouseRButton, 3000 ;  
  
 }
 return
 
+;包精英
 naiMonkFight(){
-	 
- 	SetTimer, Label1, 300 ;动作条技能1键600毫秒连点 
-	SetTimer, Label2, 250 ;动作条技能2键600毫秒连点 
-	SetTimer, Label3, 400 ;动作条技能3键600毫秒连点 
-	SetTimer, Label4, 200 ;动作条技能4键600毫秒连点 
-	SetTimer, MouseLButton, 300 ;鼠标左键150毫秒连点 
-	SetTimer, MouseRButton, 3000 ;鼠标右键600毫秒连 
+	
+	send, {e}
+ 	SetTimer, Label1, 500 ;  
+	SetTimer, Label2, 550 ;  
+	SetTimer, Label3, 5000 ;  
+	SetTimer, Label4, 500 ;  
+	SetTimer, MouseLButton, 150 ;  
+	SetTimer, MouseRButton, 500 ;  
  
 }
 return
 
+;包赶路
 naiMonkRun(){
 	Click Right
- 	;SetTimer, Label1, 300 ;动作条技能1键600毫秒连点 
-	;SetTimer, Label2, 250 ;动作条技能2键600毫秒连点 
-	;SetTimer, Label3, 3000 ;动作条技能3键600毫秒连点 
-	SetTimer, Label4, 200 ;动作条技能4键600毫秒连点 
-	;SetTimer, MouseLButton, 200 ;鼠标左键150毫秒连点 
-	SetTimer, MouseRButton, 3000 ;鼠标右键600毫秒连 
+ 	;SetTimer, Label1, 300 ;  
+	;SetTimer, Label2, 250 ;  
+	;SetTimer, Label3, 3000 ;  
+	SetTimer, Label4, 200 ;  
+	;SetTimer, MouseLButton, 200 ;  
+	SetTimer, MouseRButton, 500 ;  
 	Send {space down} ;按住强制移动键x，x可改动
 }
 return

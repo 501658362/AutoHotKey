@@ -281,7 +281,7 @@ newUpdateGem(x = 0){
 	;获取暗黑的游戏窗口
 	WinGet, id, list, ahk_class D3 Main Window Class,, Program Manager
 	v_loop:=1 
-	Loop, 5
+	Loop, 4
 	{
 		v_outIndex:=A_Index
 			Loop, %id%
@@ -302,7 +302,7 @@ newUpdateGem(x = 0){
 					;	updateSingleGem() 
 					;	MsgBox, 升级 %v_outIndex% %A_Index%
 					;}
-					if(v_outIndex = 5){
+					if(v_outIndex = 4){
 						;MsgBox, 回 %v_outIndex% %A_Index%
 						Send {T}
 					}
@@ -343,9 +343,9 @@ start() {
 	global v_skill_flag
 	global v_loop
 	
-	showMsg("开启" v_current_hero_name "技能")
-	
- 
+	if (v_current_hero != 4){ 
+		showMsg("开启" v_current_hero_name "技能")
+	}
 	if(v_current_hero = 2){
 		v_loop:=1
 		SetTimer, WizardSkill, 100
@@ -391,32 +391,6 @@ stop() {
 	
 	
 }
-
-;主动开启
-clickStart(x) {
-	If (x=0){
-		;MsgBox, Text1
-	}
-	Else{ 
-		start()
-	}
-}
-
-;战马方法
-runFast(x) {
-	If (x=0){
-		;MsgBox, Text1
-	}
-	Else{
-		;MsgBox, Text2
-		stop()
-		Send {space down} ;按住强制移动键x，x可改动
-		Sleep, 2800  ; 2.8 秒
-		start()
-	}
-}
-
-
 
 updateWeapon(x) {
 	Click Right ;

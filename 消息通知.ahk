@@ -1,14 +1,12 @@
 ﻿
-while(true){
-	if FileExist("msg.txt"){
-        FileReadLine, line, msg.txt,1
-        FileDelete, msg.txt
-        showMsg(line)
-        destroyGui()
-	}
-	Sleep, 150
-}
+#SingleInstance Force
 
+if FileExist("msg.txt"){
+	FileReadLine, line, msg.txt,1
+	FileDelete, msg.txt
+	showMsg(line)
+	destroyGui()
+}
 ;显示通知 
 showMsg(str, y = 50){ 
 	if(StrLen(str) = 0){
@@ -33,3 +31,5 @@ destroyGui(ms = 500){
 	Sleep, ms
 	Gui, destroy
 }
+
+ExitApp 

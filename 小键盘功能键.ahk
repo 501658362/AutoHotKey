@@ -1,4 +1,5 @@
-﻿
+﻿#if v_trg = 0 and WinActive("ahk_class D3 Main Window Class")
+
 $NumpadIns:: ; 分解普通材料 0
 {   
 	if(v_number_key = 1){
@@ -92,7 +93,10 @@ $NumpadRight:: ;悬赏开关键 6
 		return
 	}
 	v_comisson:=!v_comisson 
-	v_change_weapon:=!v_change_weapon
+	if(v_current_hero = 3){
+		v_change_weapon:=!v_change_weapon
+	}
+	
 	if(v_comisson = 1 or v_change_weapon = 1){
 		showMsg("悬赏开")
 	}else{
@@ -189,3 +193,5 @@ $NumpadDiv:: ;移动到第一幕 /
 	
 }
 Return 
+
+#if

@@ -101,5 +101,11 @@ $w::
  
 }
 return
-  
+
+~q::
+{
+	showMsg("q技能关")
+	SetTimer, Label1, off ;关闭技能1连点计时器，off不可改动
+}
+return
 #If

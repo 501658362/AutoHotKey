@@ -1,4 +1,7 @@
-﻿;Run, 杀死脚本.bat
+﻿#SingleInstance Force
+
+
+;Run, 杀死脚本.bat
 ;Sleep, 2000
 Run, 消息通知.exe
 ;#MaxThreads 5
@@ -40,6 +43,8 @@ v_current_hero_name:="圣教军"
 v_skill_state:=0 ;技能符文开关 0=吸 1=顺爆
 changeHeroSkill(3)
 
+v_trg=:0 ;脚本总开关
+
 v_change_weapon:=0 ;武僧切换装备开关
 #Include CommonLabel.ahk
 #Include CommonKey.ahk
@@ -57,7 +62,7 @@ var_msg_num:=0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; keyStart
 
-v_trg=:0
+
 
 #if WinActive("ahk_class D3 Main Window Class")
 $NumpadEnter::
@@ -140,9 +145,7 @@ $end::
 			
 		}else{
 			times++
-			if(times = 1){
-				SoundBeep, 1523, 5000
-			}
+
 			showMsg("找到了" times)
 			;MsgBox, "找到了"
 			x1:=x1+10
@@ -153,7 +156,10 @@ $end::
 			Sleep, 100
 			Send {enter}
 			moveToCenter()
-			ts := times / 6
+			if(times = 1){
+				SoundBeep, 1523, 5000
+			}
+			ts := times / 3
 			if(ts = 1){
 			 
 				SoundBeep, 1523, 5000
@@ -210,7 +216,7 @@ $F2:: ; 循环点击25次右键
 Return 
 
 v_tt_skill:=0
-; 圣教军天谴符文替换
+; 修改巅峰
 $CapsLock::
 { 
 	MouseGetPos, x1, y1
