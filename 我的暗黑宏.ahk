@@ -110,6 +110,12 @@ $^4::
 }
 return
 
+$^5::
+{
+	changeHeroSkill(5)
+}
+return
+
  
 $del::
 {

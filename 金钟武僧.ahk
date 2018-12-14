@@ -46,15 +46,15 @@ MonkSkillStart()
 	global v_current_hero_name
 	global monkSkillOn
 	monkSkillOn:=1
-	send, {e}
- 	SetTimer, Label1, 300 ;动作条技能1键600毫秒连点 
+	send, {e} 
+ 	SetTimer, Label1, 3000 ;动作条技能1键600毫秒连点 
 	;SetTimer, Label2, 250 ;动作条技能2键600毫秒连点 
-	;SetTimer, Label3, 20 ;动作条技能3键600毫秒连点 
+	SetTimer, Label3, 6000 ;动作条技能3键600毫秒连点 
 	SetTimer, Label4, 600 ;动作条技能4键600毫秒连点 
-	;SetTimer, MouseLButton, 200 ;鼠标左键150毫秒连点 
+	SetTimer, MouseLButton, 300 ;鼠标左键150毫秒连点 
 	;SetTimer, MouseRButton, 300 ;鼠标右键600毫秒连 
 	
-	SetTimer, forceClick, 1000 ;鼠标左键150毫秒连点 
+	SetTimer, forceClick, 500 ;鼠标左键150毫秒连点 
 	Send {space down} ;按住强制移动键x，x可改动
 }
 return     
@@ -87,15 +87,18 @@ $w::
 	v_w:=GetKeyState("w")
 	if(v_w){
 		showMsg("金钟 关")
+		SetTimer, MouseLButton, 150 ;鼠标左键150毫秒连点，150可改动
 		;SetTimer, MouseLButton, 200
 		Send {space down}
 		send, {w Up}
 		 
 	}else{
+		SetTimer, MouseLButton, off ;关闭左键连点计时器，off不可改动
 		showMsg("金钟 开")
 		;SetTimer, MouseLButton, off
 		Send {space up}
 		send, {w Down}
+		
 
 	}
  
@@ -108,4 +111,5 @@ return
 	SetTimer, Label1, off ;关闭技能1连点计时器，off不可改动
 }
 return
+
 #If

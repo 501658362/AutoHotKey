@@ -1,4 +1,4 @@
-﻿#IfWinActive,ahk_class GLFW30
+﻿ 
 
 ;#maxThreadsPerHotkey, 2
 v_trg=:0
@@ -16,7 +16,7 @@ $F5::
 		showMsg("开")
 		v_trg:=0
 	}
-		destroyGui()
+	 
 	
 }
 return
@@ -31,7 +31,7 @@ $F1::
 	showMsg("自动奔跑")
 	Send {w Down}
 	Send {shift down}
-	destroyGui()
+	 
 	
 }
 return
@@ -42,7 +42,7 @@ $F2::
 	 
  	Send {w up}
 	Send {shift up}
-	destroyGui()
+	 
 }
 return
 
@@ -60,7 +60,7 @@ $F3::
 			var_flag := 0
 	SetTimer, MouseLButton, off ;鼠标左键150毫秒连点，150可改动
 	}
-	destroyGui()
+	 
 }
 return
 
@@ -80,7 +80,7 @@ $1::
 		 showMsg("开采光束 关")
 		stop()
 	}
-	destroyGui()
+	 
 }
 return
 
@@ -101,7 +101,7 @@ $2::
 		var_flag := 0
 		Click, up
 	}
-	destroyGui()
+	 
 }
 return
 
@@ -119,7 +119,7 @@ $4::
 {
 	 showMsg("加速飞行")
 	Send {shift down}
-	destroyGui()
+	 
 }
 return
 
@@ -157,8 +157,14 @@ start(){
 return
 
 
+
 ;显示通知 
 showMsg(str, y = 50){ 
+	if(StrLen(str) = 0){
+		return
+	}
+
+	
 	global v_c_x
 	global v_c_y
 	
@@ -167,25 +173,10 @@ showMsg(str, y = 50){
 		v_c_x := MouseX
 		v_c_y := MouseY
 	}
-
-	
-	Gui,Destroy
-	;y := 50  ;y is the y-coordinate of the prompting window
  
-    Gui, +AlwaysOnTop +Disabled -Caption -SysMenu +Owner +LastFound
-    Gui, font, s26 cFF0000 w600, Verdana
-    Gui, Color, FF0001
-    WinSet, TransColor, FF0001
-    Gui,Add,Text,BackgroundTrans,%str% 
-    Gui, Show, NoActivate Y%y% NA, Title of Window
- 
-    ;Sleep, ms
-    ;Gui, destroy
- 
-}
-destroyGui(ms = 500){
-	Sleep, ms
-	Gui, destroy
+	FileDelete, msg.txt
+	FileAppend, %str%,  msg.txt
+	Run, 消息通知.exe
 }
 
 

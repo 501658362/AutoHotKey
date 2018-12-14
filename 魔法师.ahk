@@ -38,3 +38,16 @@ WizardSkill:
 
 }
 return     
+
+
+wizardStart(){
+	;SetTimer, forceClick, 2000 ;鼠标左键150毫秒连点 
+	SetTimer, Label1, 2000
+}
+return
+
+wizardStop(){
+	;SetTimer, forceClick, off ;鼠标左键150毫秒连点 
+	SetTimer, Label1, off
+}
+return

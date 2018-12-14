@@ -336,12 +336,15 @@ updateGem(index, max){
 	}
 }
  
-
+skillOn:=0
 start() {
 	global v_current_hero
 	global v_current_hero_name
 	global v_skill_flag
 	global v_loop
+	global skillOn
+	
+	skillOn:=1
 	
 	if (v_current_hero != 4){ 
 		showMsg("开启" v_current_hero_name "技能")
@@ -353,7 +356,10 @@ start() {
 		MonkSkillStart()
 	}else if (v_current_hero = 4){ 
 		naiMonkSkillStart()
-	}else{
+	}else if (v_current_hero = 5){ 
+		wizardStart()
+	}
+	else{
 		CrusaderSkillStart()
 	}
 	
@@ -369,8 +375,8 @@ stop() {
 	global v_aotu_pick
 	global v_current_hero_name
 	global v_current_hero
-	
-	
+	global skillOn
+	skillOn:=0
 	if(v_skill_flag = 1){
 		showMsg("关闭" v_current_hero_name "技能")
 	}
@@ -381,6 +387,8 @@ stop() {
 		MonkSkillStop()
 	}else if (v_current_hero = 4){
 		naiMonkSkillStop()
+	}else if (v_current_hero = 5){ 
+		wizardStop()
 	}else{
 		CrusaderSkillStop()
 	}
@@ -391,6 +399,38 @@ stop() {
 	
 	
 }
+
+#if skillOn=1 and WinActive("ahk_class D3 Main Window Class")
+
+
+$space::
+{
+	;如果键是按下的(或打开了), 函数返回 1, 如果是松开的, 则返回 0
+	v_w:=GetKeyState("space")
+	if(v_w){
+		showMsg("空格 关")
+		;SetTimer, MouseLButton, 200
+		Send {space Up}
+		send, {w Up}
+		 
+	}else{
+		showMsg("空格 开")
+		;SetTimer, MouseLButton, off
+		Send {space Down}
+	 
+
+	}
+ 
+}
+return
+
+~q::
+{
+	showMsg("q技能关")
+	SetTimer, Label1, off ;关闭技能1连点计时器，off不可改动
+}
+return
+#If
 
 updateWeapon(x) {
 	Click Right ;
@@ -590,7 +630,10 @@ changeHeroSkill(x = 0){
 		v_current_hero_name:="武僧"
 	}else if (x = 4){
 		v_current_hero_name:="奶僧"
-	}else{
+	}else if (x = 5){
+		v_current_hero_name:="塔魔法师"
+	}
+	else{
 		v_current_hero_name:="圣教军"
 	}
 	showMsg("切换" v_current_hero_name "技能")

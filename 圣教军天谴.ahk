@@ -9,7 +9,7 @@ CrusaderSkillStart(){
 	SetTimer, Label3, 50 ;动作条技能3键600毫秒连点关闭律法自动按，off可改动，
 	SetTimer, Label4, 100 ;动作条技能4键600毫秒连点，对应勇士技能，600可改动
 	SetTimer, MouseLButton, 150 ;鼠标左键150毫秒连点，150可改动
-	SetTimer, MouseRButton, 500 ;鼠标右键600毫秒连点关闭钢甲自动按，off可改动
+	;SetTimer, MouseRButton, 500 ;鼠标右键600毫秒连点关闭钢甲自动按，off可改动
 	Send {space down} ;按住强制移动键x，x可改动
 }
 
@@ -58,4 +58,29 @@ runFast(x) {
 
 #if
 
+
+#if v_current_hero=1  and WinActive("ahk_class D3 Main Window Class")
+~WheelUp::
+{
+	changeC()
+}
+return
+~WheelDown::
+{
+	changeC()
+}
+return
+
+changeC(){
+	global v_comisson
+	v_comisson:=!v_comisson
+	if(v_comisson = 1){
+		showMsg("跑马开")
+	}else{
+		showMsg("跑马关")
+	}
+
+}
+return
+#if
 
