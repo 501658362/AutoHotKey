@@ -59,8 +59,8 @@ naiMonkFightBoss(){
 	;SetTimer, Label2, 250 ;  
 	;SetTimer, Label3, 400 ;  
 	SetTimer, Label4, 200 ;  
-	;SetTimer, MouseLButton, 200 ;  
-	SetTimer, MouseRButton, 3000 ;  
+	SetTimer, MouseLButton, 200 ;  
+	SetTimer, MouseRButton, 200 ;  
  
 }
 return
@@ -69,12 +69,12 @@ return
 naiMonkFight(){
 	
 	send, {e}
- 	SetTimer, Label1, 500 ;  
-	SetTimer, Label2, 550 ;  
+ 	SetTimer, Label1, 900 ;  
+	SetTimer, Label2, 800 ;  
 	SetTimer, Label3, 5000 ;  
-	SetTimer, Label4, 500 ;  
+	SetTimer, Label4, 700 ;  
 	SetTimer, MouseLButton, 150 ;  
-	SetTimer, MouseRButton, 500 ;  
+	SetTimer, MouseRButton, 200 ;  
  
 }
 return
@@ -87,7 +87,7 @@ naiMonkRun(){
 	;SetTimer, Label3, 3000 ;  
 	SetTimer, Label4, 200 ;  
 	;SetTimer, MouseLButton, 200 ;  
-	SetTimer, MouseRButton, 500 ;  
+	SetTimer, MouseRButton, 200 ;  
 	Send {space down} ;按住强制移动键x，x可改动
 }
 return

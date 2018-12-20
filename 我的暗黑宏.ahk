@@ -3,7 +3,7 @@
 
 ;Run, 杀死脚本.bat
 ;Sleep, 2000
-Run, 消息通知.exe
+;Run, 消息通知.exe
 ;#MaxThreads 5
 #IfWinActive,ahk_class D3 Main Window Class 
 ;#maxThreadsPerHotkey, 2
