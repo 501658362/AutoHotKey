@@ -120,14 +120,15 @@ changeHero(x){
 moveToMe(){
 	MouseMove, 64, 247 ,2
 
-	Sleep, 50  ; 
+	Sleep, 100  ; 
 	Click right ;  
 
 	MouseMove, 143, 402 ,2
 		
-	Sleep, 200  ;
+	Sleep, 300  ;
 	Click Left ;  
 	MouseMove, v_center_x, v_center_y, 2
+	Sleep, 100  ; 
 
 }
 
@@ -164,10 +165,10 @@ changeWin(x = 1){
 			showMsg("开启大秘境 其他角色接受")
 			; 开启大秘境 其他角色接受
 			if(A_Index = 1){
-				Sleep, 50
+				Sleep, 200
 				;点击大秘境
 				Click, 270, 480
-				Sleep, 50
+				Sleep, 200
 				;点击开启
 				Click, 270, 846
 			}else{
@@ -291,9 +292,11 @@ newUpdateGem(x = 0){
 				if(v_loop = 1){
 					
 					WinActivate, ahk_id %this_id%
-					Sleep, 100 ; 
+				 
+					Sleep, 300 ; 
+				 
 					updateSingleGem() 
-					Sleep, 100 ; 
+					Sleep, 300 ; 
 					;if(v_outIndex = 4 and A_Index < 3){
 					;	MsgBox, 回 %v_outIndex% %A_Index%
 					;	Send {T}
@@ -304,6 +307,12 @@ newUpdateGem(x = 0){
 					;}
 					if(v_outIndex = 4){
 						;MsgBox, 回 %v_outIndex% %A_Index%
+						if(A_Index = 3){
+							showMsg("5555")
+							Sleep, 300 ; 
+							updateSingleGem() 
+							Sleep, 300 ; 
+						}
 						Send {T}
 					}
 					
@@ -317,9 +326,30 @@ newUpdateGem(x = 0){
 
 ;更新一次宝石
 updateSingleGem(){
-	MouseMove, 269, 548 ,2
-	Sleep, 100 ; 
-	Click Left ; 
+	StartTime := A_TickCount
+ 
+	while(true){
+	
+		MouseMove, 269, 548 ,2
+		Sleep, 100 ; 
+		PixelGetColor, color,  190, 543
+		if(color = 0x2B1600 or color = 0x532D00 or color = 0x552e00){
+			Click Left ; 
+			StartTime := A_TickCount
+			break
+		}else{
+			showMsg("zhaobudao")
+			MouseMove, 269, 348 ,2
+			Sleep, 100 ; 
+		}
+		ElapsedTime := A_TickCount - StartTime
+		if(ElapsedTime > 3000){
+			Click Left ; 
+			showMsg("超时退出"  %color%)
+			break
+		}
+		
+	}
 }
  
 ;升级宝石
@@ -351,19 +381,27 @@ start() {
 	}
 	if(v_current_hero = 2){
 		v_loop:=1
-		SetTimer, WizardSkill, 100
-	}else if (v_current_hero = 3){ 
-		MonkSkillStart()
-	}else if (v_current_hero = 4){ 
-		naiMonkSkillStart()
-	}else if (v_current_hero = 5){ 
-		wizardStart()
-	}
-	else{
-		CrusaderSkillStart()
+		mofashiStart()
+	}else{
+		if (v_current_hero = 3){ 
+			MonkSkillStart()
+		}else if (v_current_hero = 4){ 
+			naiMonkSkillStart()
+		}else if (v_current_hero = 5){ 
+			wizardStart()
+		}else if (v_current_hero = 6){ 
+			sanJianMonkSkillStart()
+		}
+		else if (v_current_hero = 7){ 
+			huanmoSkillStart()
+		}
+		else{
+			CrusaderSkillStart()
+		}
+		v_skill_flag:=1
 	}
 	
-	v_skill_flag:=1
+	
 	
 }
 
@@ -382,13 +420,17 @@ stop() {
 	}
 	if(v_current_hero = 2){
 		v_loop:=0
-		SetTimer, WizardSkill, off
+		;SetTimer, WizardSkill, off
 	}else if (v_current_hero = 3){
 		MonkSkillStop()
 	}else if (v_current_hero = 4){
 		naiMonkSkillStop()
 	}else if (v_current_hero = 5){ 
 		wizardStop()
+	}else if (v_current_hero = 6){ 
+		sanJianMonkSkillStop()
+	}else if (v_current_hero = 7){ 
+		huanmoSkillStop()
 	}else{
 		CrusaderSkillStop()
 	}
@@ -400,7 +442,7 @@ stop() {
 	
 }
 
-#if skillOn=1 and WinActive("ahk_class D3 Main Window Class")
+#if skillOn=1 and v_current_hero != 7 and WinActive("ahk_class D3 Main Window Class")
 
 
 $space::
@@ -504,6 +546,10 @@ knock(x) {
 			if(v_loop=1){
 				MouseMove, v_cp, v_c_y, 0
 				v_cp:=v_cp+v_package_x_to_x
+				;PixelGetColor, color, %v_cp%, %v_c_y%
+				;showMsg(color)
+				;FileAppend, %color%\n\t,  game.txt
+				;Sleep(500)
 				killIt(x)
 			}
 
@@ -632,6 +678,10 @@ changeHeroSkill(x = 0){
 		v_current_hero_name:="奶僧"
 	}else if (x = 5){
 		v_current_hero_name:="塔魔法师"
+	}else if (x = 6){
+		v_current_hero_name:="散件火钟"
+	}else if (x = 7){
+		v_current_hero_name:="幻魔荆棘"
 	}
 	else{
 		v_current_hero_name:="圣教军"

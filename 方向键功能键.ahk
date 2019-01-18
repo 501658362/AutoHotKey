@@ -1,4 +1,4 @@
-﻿#if v_trg = 0 and WinActive("ahk_class D3 Main Window Class")
+﻿#if v_trg = 1 and WinActive("ahk_class D3 Main Window Class")
  
 ; 切换英雄  1是魔法师 2是圣教军
 $Right::

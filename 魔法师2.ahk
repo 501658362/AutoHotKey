@@ -70,6 +70,8 @@ WizardSkill:
 		sleep(450)
 		send,  {W up} 
 	}
+	
+
 
 }
 return     

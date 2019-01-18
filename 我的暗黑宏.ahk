@@ -1,5 +1,5 @@
 ﻿#SingleInstance Force
-
+#MaxThreads 255
 
 ;Run, 杀死脚本.bat
 ;Sleep, 2000
@@ -7,7 +7,9 @@
 ;#MaxThreads 5
 #IfWinActive,ahk_class D3 Main Window Class 
 ;#maxThreadsPerHotkey, 2
-#MaxMem 10
+#MaxThreadsPerHotkey  20
+#MaxThreadsBuffer On
+#MaxMem 4095
 
 SetKeyDelay,-1
 SetMouseDelay,-1
@@ -41,9 +43,11 @@ v_skill_flag:=0 ;宏技能开关
 v_current_hero:=1 ;当前英雄 1=圣教军 2=魔法师 3=武僧 4=奶僧
 v_current_hero_name:="圣教军" 
 v_skill_state:=0 ;技能符文开关 0=吸 1=顺爆
+v_trg:=1 ;脚本总开关
 changeHeroSkill(3)
+loadFIle()
 
-v_trg=:0 ;脚本总开关
+;showMsg(v_trg  "   关")
 
 v_change_weapon:=0 ;武僧切换装备开关
 #Include CommonLabel.ahk
@@ -54,10 +58,13 @@ v_change_weapon:=0 ;武僧切换装备开关
 #Include 显示通知.ahk
 #Include 魔法师.ahk
 #Include 金钟武僧.ahk
+#Include 散件火种.ahk
 #Include 奶僧.ahk
 #Include 圣教军天谴.ahk
 #Include 切换游戏.ahk
- 
+#Include 幻魔荆棘.ahk
+
+
 var_msg_num:=0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; keyStart
@@ -72,10 +79,10 @@ $NumpadEnter::
 	;MsgBox, %v_trg%
 	If (v_trg=0) 
 	{ 
-		showMsg("关")
+		showMsg("开")
 		v_trg:=1
 	}else{
-		showMsg("开")
+		showMsg("关")
 		v_trg:=0
 	}
 	
@@ -83,7 +90,22 @@ $NumpadEnter::
 return
 #If
 
-#if v_trg = 0 and WinActive("ahk_class D3 Main Window Class")
+#if v_trg = 1 and WinActive("ahk_class D3 Main Window Class")
+
+ 
+$XButton1:: ; 技能开关键， 
+{ 
+	 
+	If (v_skill_flag=0) 
+	{
+		start()
+	}
+	Else 
+	{
+		stop()
+	}
+} 
+Return 
 
 $^1::
 {
@@ -113,6 +135,17 @@ return
 $^5::
 {
 	changeHeroSkill(5)
+}
+return
+
+$^6::
+{
+	changeHeroSkill(6)
+}
+return
+$^7::
+{
+	changeHeroSkill(7)
 }
 return
 
@@ -194,7 +227,7 @@ $F1:: ; 连点鼠标左键 捡东西
 	}
 	if(v_aotu_pick=0){
 		showMsg("开启鼠标左键连点")
-		SetTimer, MouseLButton, 300 ;鼠标左键150毫秒连点，150可改动
+		SetTimer, MouseLButton, 50 ;鼠标左键150毫秒连点，150可改动
 		v_aotu_pick:=1
 	}else{
 		showMsg("关闭鼠标左键连点")
@@ -246,7 +279,7 @@ $CapsLock::
 		Send, {Ctrl down}
 		;升级体能
 		Sleep, 50
-		Click, 1277, 427, 10
+		Click, 1277, 427, 30
 		Sleep, 50
 		Send, {Ctrl up}
 		Sleep, 50
@@ -261,7 +294,7 @@ $CapsLock::
 		Send, {Ctrl down}
 		Click, 1280, 615
 		Click, 1272, 519
-		Click, 1278, 334, 10
+		Click, 1278, 334, 30
 		Sleep, 50
 		Send, {Ctrl up}
 		Sleep, 50
@@ -347,20 +380,5 @@ changeWin(pause_presses)
 ; 为下一个系列的按下做准备:
 pause_presses = 0
 return
-
- 
-$XButton1:: ; 技能开关键， 
-{ 
-	 
-	If (v_skill_flag=0) 
-	{
-		start()
-	}
-	Else 
-	{
-		stop()
-	}
-} 
-Return 
 
 #if

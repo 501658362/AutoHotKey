@@ -1,4 +1,4 @@
-﻿#if v_trg = 0 and WinActive("ahk_class D3 Main Window Class")
+﻿#if v_trg = 1 and WinActive("ahk_class D3 Main Window Class")
 
 $NumpadIns:: ; 分解普通材料 0
 {   
@@ -158,7 +158,7 @@ $NumpadAdd:: ;批量敲碎装备   +
 	v_loop:=1
 	knock(1)
 
-	closeChatInput()
+	Send {Esc}
 	
 	moveToCenter()
 	

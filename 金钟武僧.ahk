@@ -51,7 +51,7 @@ MonkSkillStart()
 	;SetTimer, Label2, 250 ;动作条技能2键600毫秒连点 
 	SetTimer, Label3, 6000 ;动作条技能3键600毫秒连点 
 	SetTimer, Label4, 600 ;动作条技能4键600毫秒连点 
-	;SetTimer, MouseLButton, 300 ;鼠标左键150毫秒连点 
+	SetTimer, MouseLButton, 100 ;鼠标左键150毫秒连点 
 	;SetTimer, MouseRButton, 300 ;鼠标右键600毫秒连 
 	
 	SetTimer, forceClick, 500 ;鼠标左键150毫秒连点 
@@ -88,14 +88,14 @@ $w::
 	if(v_w){
 		showMsg("金钟 关")
 		;SetTimer, MouseLButton, 150 ;鼠标左键150毫秒连点，150可改动
-		;SetTimer, MouseLButton, 200
+		SetTimer, MouseLButton, 100
 		Send {space down}
 		send, {w Up}
 		 
 	}else{
 		SetTimer, MouseLButton, off ;关闭左键连点计时器，off不可改动
 		showMsg("金钟 开")
-		;SetTimer, MouseLButton, off
+		SetTimer, MouseLButton, off
 		Send {space up}
 		send, {w Down}
 		
