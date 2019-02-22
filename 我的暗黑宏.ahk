@@ -44,9 +44,8 @@ v_current_hero:=1 ;当前英雄 1=圣教军 2=魔法师 3=武僧 4=奶僧
 v_current_hero_name:="圣教军" 
 v_skill_state:=0 ;技能符文开关 0=吸 1=顺爆
 v_trg:=1 ;脚本总开关
-changeHeroSkill(3)
-loadFIle()
 
+ loadConfigFIle()
 ;showMsg(v_trg  "   关")
 
 v_change_weapon:=0 ;武僧切换装备开关
@@ -61,8 +60,12 @@ v_change_weapon:=0 ;武僧切换装备开关
 #Include 散件火种.ahk
 #Include 奶僧.ahk
 #Include 圣教军天谴.ahk
+#Include 不朽野蛮人.ahk
 #Include 切换游戏.ahk
 #Include 幻魔荆棘.ahk
+#Include 猎魔.ahk
+#Include 切换英雄.ahk
+#Include 加载配置.ahk
 
 
 var_msg_num:=0
@@ -107,47 +110,6 @@ $XButton1:: ; 技能开关键，
 } 
 Return 
 
-$^1::
-{
-	changeHeroSkill(1)
-}
-return
-
-$^2::
-{
-	changeHeroSkill(2)
-}
-return
-
-$^3::
-{
-	changeHeroSkill(3)
-}
-return
-
-
-$^4::
-{
-	changeHeroSkill(4)
-}
-return
-
-$^5::
-{
-	changeHeroSkill(5)
-}
-return
-
-$^6::
-{
-	changeHeroSkill(6)
-}
-return
-$^7::
-{
-	changeHeroSkill(7)
-}
-return
 
  
 $del::

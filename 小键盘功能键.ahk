@@ -112,15 +112,68 @@ Return
 
 $NumpadUp:: ;附魔   8 
 {
+	/*
+	; 替换当条属性
 	Click, 161, 391
 	Sleep, 50
+	; 选择现在的属性 
 	Click, 272, 785
 	Sleep, 50
+	; 开启附魔
 	Click, 272, 785
+	return
+	*/
 	
+	
+	dm:=getBm()
+	; 替换当条属性
+	Click, 161, 391
+	Sleep, 2000
+	xx:=1
+	while(xx = 1){
+		p_name:="C:\Users\Chen\Desktop\dm\gameimg\暴击伤害.bmp"
+		p_name:="C:\Users\Chen\Desktop\dm\gameimg\范围伤害.bmp"
+		p_name:="C:\Users\Chen\Desktop\dm\gameimg\火焰技能.bmp"
+		p_name:="C:\Users\Chen\Desktop\dm\gameimg\镶孔.bmp"
+		p_name:="C:\Users\Chen\Desktop\dm\gameimg\攻击速度.bmp"
+	
+	
+		p_name:="C:\Users\Chen\Desktop\dm\gameimg\攻击速度.bmp"	
+		pos1:= dm.FindPicE(		46, 420, 	476, 509, p_name,"000000", 0.93 ,0)
+		 
+
+		Array := StrSplit(pos1 , "|")
+		x1:=Array[2]
+		y1:=Array[3]
+		
+		if(x1 = -1){
+			showMsg("找不到")
+			Sleep, 50
+			; 选择现在的属性 
+			Click, 161, 391
+	 
+			Sleep, 50
+			; 开启附魔
+			Click,  272, 785
+			Sleep, 1500
+		}else{
+			showMsg("找到了")
+			xx:=2
+			MouseMove, x1, y1
+			
+			Click
+			
+			SoundBeep, 1523, 2000
+		}
+	
+	}
+	
+ 
+
 	
 }
-return	
+return	 
+
 
 $NumpadPgUp:: ; 重铸装备 9
 { 

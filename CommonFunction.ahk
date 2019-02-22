@@ -394,6 +394,10 @@ start() {
 		}
 		else if (v_current_hero = 7){ 
 			huanmoSkillStart()
+		}else if (v_current_hero = 8){ 
+			yemanrenSkillStart()
+		}else if (v_current_hero = 9){ 
+			liemoSkillStart()
 		}
 		else{
 			CrusaderSkillStart()
@@ -431,6 +435,10 @@ stop() {
 		sanJianMonkSkillStop()
 	}else if (v_current_hero = 7){ 
 		huanmoSkillStop()
+	}else if (v_current_hero = 8){ 
+		yemanrenSkillStop()
+	}else if (v_current_hero = 9){ 
+		liemoSkillStop()
 	}else{
 		CrusaderSkillStop()
 	}
@@ -442,37 +450,36 @@ stop() {
 	
 }
 
-#if skillOn=1 and v_current_hero != 7 and WinActive("ahk_class D3 Main Window Class")
-
-
-$space::
-{
-	;如果键是按下的(或打开了), 函数返回 1, 如果是松开的, 则返回 0
-	v_w:=GetKeyState("space")
-	if(v_w){
-		showMsg("空格 关")
-		;SetTimer, MouseLButton, 200
-		Send {space Up}
-		send, {w Up}
-		 
-	}else{
-		showMsg("空格 开")
-		;SetTimer, MouseLButton, off
-		Send {space Down}
-	 
-
-	}
- 
-}
-return
-
-~q::
-{
-	showMsg("q技能关")
-	SetTimer, Label1, off ;关闭技能1连点计时器，off不可改动
-}
-return
-#If
+;#if v_current_hero！= 7 and skillOn=1 and WinActive("ahk_class D3 Main Window Class")
+;$space::
+;{ 
+;	
+;	;如果键是按下的(或打开了), 函数返回 1, 如果是松开的, 则返回 0
+;	v_w:=GetKeyState("space")
+;	if(v_w){
+;		showMsg("空格 关")
+;		;SetTimer, MouseLButton, 200
+;		Send {space Up}
+;		send, {w Up}
+;		 
+;	}else{
+;		showMsg("空格 开")
+;		;SetTimer, MouseLButton, off
+;		Send {space Down}
+;	 
+;
+;	}
+; 
+;}
+;return
+;
+;~q::
+;{
+;	showMsg("q技能关")
+;	SetTimer, Label1, off ;关闭技能1连点计时器，off不可改动
+;}
+;return
+;#If
 
 updateWeapon(x) {
 	Click Right ;
@@ -663,31 +670,6 @@ getPicName(){
 	;|C:\Users\Chen\Desktop\dm\gameimg\套装连枷.bmp
 }
 
-changeHeroSkill(x = 0){
-	global v_current_hero
-	global v_current_hero_name
-	v_current_hero:=x ;当前英雄 1=圣教军 2=魔法师 3=武僧 4=奶僧
-	stop()
-	if(x = 1){
-		v_current_hero_name:="圣教军"
-	}else if(x = 2){
-		v_current_hero_name:="魔法师"
-	}else if (x = 3){
-		v_current_hero_name:="武僧"
-	}else if (x = 4){
-		v_current_hero_name:="奶僧"
-	}else if (x = 5){
-		v_current_hero_name:="塔魔法师"
-	}else if (x = 6){
-		v_current_hero_name:="散件火钟"
-	}else if (x = 7){
-		v_current_hero_name:="幻魔荆棘"
-	}
-	else{
-		v_current_hero_name:="圣教军"
-	}
-	showMsg("切换" v_current_hero_name "技能")
-}
 
 newPickUp(){
 	
