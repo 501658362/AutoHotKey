@@ -112,7 +112,7 @@ Return
 
 $NumpadUp:: ;附魔   8 
 {
-	/*
+	 
 	; 替换当条属性
 	Click, 161, 391
 	Sleep, 50
@@ -122,7 +122,7 @@ $NumpadUp:: ;附魔   8
 	; 开启附魔
 	Click, 272, 785
 	return
-	*/
+ 
 	
 	
 	dm:=getBm()
@@ -138,8 +138,8 @@ $NumpadUp:: ;附魔   8
 		p_name:="C:\Users\Chen\Desktop\dm\gameimg\攻击速度.bmp"
 	
 	
-		p_name:="C:\Users\Chen\Desktop\dm\gameimg\攻击速度.bmp"	
-		pos1:= dm.FindPicE(		46, 420, 	476, 509, p_name,"000000", 0.93 ,0)
+		p_name:="C:\Users\Chen\Desktop\dm\gameimg\火焰技能.bmp"	
+		pos1:= dm.FindPicE(		46, 420, 	476, 509, p_name,"000000", 0.8 ,0)
 		 
 
 		Array := StrSplit(pos1 , "|")
@@ -155,7 +155,7 @@ $NumpadUp:: ;附魔   8
 			Sleep, 50
 			; 开启附魔
 			Click,  272, 785
-			Sleep, 1500
+			Sleep, 3000
 		}else{
 			showMsg("找到了")
 			xx:=2
