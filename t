@@ -1,4 +1,341 @@
-<ol class="down2">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <li>The.Big.Bang.Theory.S04E01.The.Robotic.Manipulation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(851.14MB)
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <a href="ed2k://|file|The.Big.Bang.Theory.S04E01.The.Robotic.Manipulation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|892485083|43D0DDCE322CD761C9E37F3760268300|h=VMDQYQOTWMKXU62DFBNBWP7CRIUMSS3F|/" target="_blank">迅雷-电驴</a></li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <li>The.Big.Bang.Theory.S04E02.The.Cruciferous.Vegetable.Amplification.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(843.42MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E02.The.Cruciferous.Vegetable.Amplification.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|884393264|A0D48693F88928C49D911F68FB7206C3|h=DVWD67VBPGW5CTXE4YTSRUY44R3OMWCG|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E03.The.Zazzy.Substitution.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(861.47MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E03.The.Zazzy.Substitution.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|903316488|104E0A408CF49B2EA0F68A2BDE5AF8D8|h=WJPZEMUBCTCJTQ7YPXVXZFUOO4OVCWKO|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E04.The.Hot.Troll.Deviation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(823.26MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E04.The.Hot.Troll.Deviation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|863252255|374FB54BA378A63393F79C0A359B6F56|h=ALEG74OMLZEPZYQGZ2KT6CXWB75JDH6M|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E05.The.Desperation.Emanation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(835.48MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E05.The.Desperation.Emanation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|876065888|E87FF8627745A656140B318685BC3D22|h=NMC4HHBHNGE5IWT2PVQ46RDOCL6OIKC5|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E06.The.Irish.Pub.Formulation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(904.85MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E06.The.Irish.Pub.Formulation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|948801334|79C99375876F11299439B1C525293E0E|h=PGR7BHSMSNEDHSMHPIEUK4ZK6WCTZ24J|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E07.The.Apology.Insufficiency.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(896.29MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E07.The.Apology.Insufficiency.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|939822988|FB9D3FACC175B10786BFEE841FC203FE|h=PUMJ6KXY4IZLEYVTQXL2EL3PKK46LIS6|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E08.The.21-Second.Excitation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(772.93MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E08.The.21-Second.Excitation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|810477637|944C759336AC69CA29D81B51969C9D33|h=NNT3YLNC6QZJFB25ZALZ7RJ5IQEAJXVY|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E09.The.Boyfriend.Complexity.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(851.04MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E09.The.Boyfriend.Complexity.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|892375723|0E599F3A97168DF7BCF07C445DAEB531|h=7CI4AMT6WGOJ2TKECHMQCSUWNSLJHAFD|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E10.The.Alien.Parasite.Hypothesis.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(809.55MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E10.The.Alien.Parasite.Hypothesis.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|848872261|9EE6D08D970762A7FB879D2D0650F6F0|h=P3CXPRUWBE6HDFCWGFRCUTMVBNISHBA6|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E11.The.Justice.League.Recombination.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(818.12MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E11.The.Justice.League.Recombination.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|857855820|F857E08403A1E2A570AD86D5EF09240B|h=G3PWQVCKLDDHHIZIMMTGZ426H7C7FRPD|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E12.The.Bus.Pants.Utilization.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(865.73MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E12.The.Bus.Pants.Utilization.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|907779854|C18FF3071E070A3B6723369585DED479|h=ARNHP5XXPH4CFK6WXT6PSQFAZ37AJQED|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E13.The.Love.Car.Displacement.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(859.95MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E13.The.Love.Car.Displacement.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|901724305|53117DBD73FCF691A6B9BB1B439FD28A|h=C3KG5IJM66YD2HYD4BIIVYVOTV36SIWE|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E14.The.Thespian.Catalyst.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(883.39MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E14.The.Thespian.Catalyst.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|926298220|AA449B1471BD7E5DDDE7C446857A209C|h=2INID3VYQDQRYJ3TH552EFDEHHOY5GMF|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E15.The.Benefactor.Factor.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(800.43MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E15.The.Benefactor.Factor.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|839311507|3231DA1249B43D6BCDA2797B1F6810CC|h=QZCBAGB27JGRKC7YCYRHSJE7XTHKEKNF|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E16.The.Cohabitation.Formulation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(861.21MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E16.The.Cohabitation.Formulation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|903041321|A56408A28F08C1914697FB2C772F61CE|h=3ZKJIPKT37HTU2BNBX6JJ7BZGXWUEW3F|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E17.The.Toast.Derivation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(870.76MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E17.The.Toast.Derivation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|913059218|B641843704B3F928E7EC314111C2B8FF|h=RR6NU4PUNPY6UJNNRDEY7OHGZXGR26IC|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E18.The.Prestidigitation.Approximation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(883.19MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E18.The.Prestidigitation.Approximation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|926088802|C58E4314F833FDD121C971300C7DBCBF|h=F7PWJXMAX67FJUO7E2X66WBQSHVHIXXU|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E19.The.Zarnecki.Incursion.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(866.57MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E19.The.Zarnecki.Incursion.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|908668530|83D47961CA8D45A1F9078BF4B238A667|h=HFXT4SJZRYMTEGBICF7LYAUQ46BKNS2J|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E20.The.Herb.Garden.Germination.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(853.93MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E20.The.Herb.Garden.Germination.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|895412446|8731E9479DF4E8DAFB0120F22C8B1490|h=6DBJE7HXL7SX4Q3TOQRDDHF6HA35DN7O|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E21.The.Agreement.Dissection.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(876.72MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E21.The.Agreement.Dissection.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|919303994|EB2ACCE3C073B025153759460CBF235F|h=55T6LWAWMLFGBFKIIM7T6SW55GUWHOTP|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E22.The.Wildebeest.Implementation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(855.06MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E22.The.Wildebeest.Implementation.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|896597830|C82FC478FE8C30073AFB97C44AA106D4|h=2IHJRTOP4BLKH3HAMFOXWJUXMCXDXN7H|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E23.The.Engagement.Reaction.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(805.1MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E23.The.Engagement.Reaction.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|844206358|B81823BABEC9B543AA0E35F861FE25DE|h=53VBTIL72XZZOB65LWKOBT4AV54U2CUU|/" target="_blank">迅雷-电驴</a></li><li>The.Big.Bang.Theory.S04E24.The.Roommate.Transmogrification.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv(896.53MB) <a href="ed2k://|file|The.Big.Bang.Theory.S04E24.The.Roommate.Transmogrification.1080p.WEB-DL.DD5.1.AAC2.0.H.264-SA89.mkv|940076865|B58420685DE450DDB36B931AF36DD2FD|h=BEATFAUII44Z72BZI76ZBD4VMUCUGJPA|/" target="_blank">迅雷-电驴</a></li></ol>
+udp://tracker.coppersurfer.tk:6969/announce`n`rudp://tracker.open-internet.nl:6969/announce`n`rudp://tracker.leechers-paradise.org:6969/announce`n`rudp://tracker.internetwarriors.net:1337/announce`n`rhttp://tracker.internetwarriors.net:1337/announce`n`rudp://tracker.opentrackr.org:1337/announce`n`rhttp://tracker.opentrackr.org:1337/announce`n`rudp://9.rarbg.to:2710/announce`n`rudp://9.rarbg.me:2710/announce`n`rudp://exodus.desync.com:6969/announce`n`rudp://tracker1.itzmx.com:8080/announce`n`rudp://explodie.org:6969/announce`n`rhttp://tracker1.itzmx.com:8080/announce`n`rhttp://explodie.org:6969/announce`n`rudp://tracker2.itzmx.com:6961/announce`n`rhttp://tracker3.itzmx.com:6961/announce`n`rhttp://tracker2.itzmx.com:6961/announce`n`rudp://ipv4.tracker.harry.lu:80/announce`n`rudp://tracker.torrent.eu.org:451/announce`n`rudp://tracker.tiny-vps.com:6969/announce`n`rudp://thetracker.org:80/announce`n`rudp://open.stealth.si:80/announce`n`rudp://open.demonii.si:1337/announce`n`rudp://denis.stalker.upeer.me:6969/announce`n`rhttp://vps02.net.orel.ru:80/announce`n`rhttp://open.acgnxtracker.com:80/announce`n`rudp://tracker4.itzmx.com:2710/announce`n`rudp://tracker.moeking.me:6969/announce`n`rudp://tracker.cyberia.is:6969/announce`n`rudp://retracker.netbynet.ru:2710/announce`n`rudp://retracker.lanta-net.ru:2710/announce`n`rudp://hk1.opentracker.ga:6969/announce`n`rhttp://re-tracker.uz:80/announce`n`rudp://tracker.uw0.xyz:6969/announce`n`rudp://tracker.trackton.ga:7070/announce`n`rudp://bt.oiyo.tk:6969/announce`n`rhttp://0d.kebhana.mx:443/announce`n`rudp://tracker.port443.xyz:6969/announce`n`rudp://tracker.filemail.com:6969/announce`n`rhttps://tracker.fastdownload.xyz:443/announce`n`rhttps://t.quic.ws:443/announce`n`rhttps://opentracker.xyz:443/announce`n`rhttp://tracker.port443.xyz:6969/announce`n`rhttp://torrent.nwps.ws:80/announce`n`rhttp://opentracker.xyz:80/announce`n`rhttp://open.trackerlist.xyz:80/announce`n`rudp://zephir.monocul.us:6969/announce`n`rudp://tracker.skynetcloud.tk:6969/announce`n`rudp://tracker.nyaa.uk:6969/announce`n`rudp://tracker.iamhansen.xyz:2000/announce`n`rudp://tracker.filepit.to:6969/announce`n`rudp://tracker.dyn.im:6969/announce`n`rudp://torrentclub.tech:6969/announce`n`rudp://retracker.sevstar.net:2710/announce`n`rudp://pubt.in:2710/announce`n`rhttps://tracker.gbitt.info:443/announce`n`rhttps://1.tracker.eu.org:443/announce`n`rhttp://tracker4.itzmx.com:2710/announce`n`rhttp://tracker.gbitt.info:80/announce`n`rhttp://tracker.bz:80/announce`n`rhttp://torrentclub.tech:6969/announce`n`rhttp://t.nyaatracker.com:80/announce`n`rhttp://sub4all.org:2710/announce`n`rhttp://open.acgtracker.com:1096/announce`n`rwss://tracker.openwebtorrent.com:443/announce`n`rwss://tracker.fastcast.nz:443/announce`n`rudp://tracker.tvunderground.org.ru:3218/announce`n`rudp://tracker.novg.net:6969/announce`n`rudp://tracker.kamigami.org:2710/announce`n`rudp://tracker.justseed.it:1337/announce`n`rudp://retracker.baikal-telecom.net:2710/announce`n`rudp://packages.crunchbangplusplus.org:6969/announce`n`rudp://chihaya.toss.li:9696/announce`n`rudp://a.leopard-raws.org:6969/announce`n`rhttps://tracker.vectahosting.eu:2053/announce`n`rhttp://tracker.tvunderground.org.ru:3218/announce`n`rhttp://tracker.torrentyorg.pl:80/announce`n`rhttp://tracker.tfile.me:80/announce`n`rhttp://tracker.openzim.org:80/announce`n`rhttp://tracker.open-tracker.org:1337/announce`n`rhttp://tracker.novg.net:6969/announce`n`rhttp://t.acg.rip:6699/announce`n`rhttp://share.camoe.cn:8080/announce`n`rhttp://retracker.mgts.by:80/announce`n`rhttp://peersteers.org:80/announce`n`rudp://tracker.coppersurfer.tk:6969/announce
+
+
+ udp://tracker.coppersurfer.tk:6969/announce
+
+
+
+ udp://tracker.open-internet.nl:6969/announce
+
+
+
+ udp://tracker.leechers-paradise.org:6969/announce
+
+
+
+ udp://tracker.internetwarriors.net:1337/announce
+
+
+
+ http://tracker.internetwarriors.net:1337/announce
+
+
+
+ udp://tracker.opentrackr.org:1337/announce
+
+
+
+ http://tracker.opentrackr.org:1337/announce
+
+
+
+ udp://9.rarbg.to:2710/announce
+
+
+
+ udp://9.rarbg.me:2710/announce
+
+
+
+ udp://exodus.desync.com:6969/announce
+
+
+
+ udp://tracker1.itzmx.com:8080/announce
+
+
+
+ udp://explodie.org:6969/announce
+
+
+
+ http://tracker1.itzmx.com:8080/announce
+
+
+
+ http://explodie.org:6969/announce
+
+
+
+ udp://tracker2.itzmx.com:6961/announce
+
+
+
+ http://tracker3.itzmx.com:6961/announce
+
+
+
+ http://tracker2.itzmx.com:6961/announce
+
+
+
+ udp://ipv4.tracker.harry.lu:80/announce
+
+
+
+ udp://tracker.torrent.eu.org:451/announce
+
+
+
+ udp://tracker.tiny-vps.com:6969/announce
+
+
+
+ udp://thetracker.org:80/announce
+
+
+
+ udp://open.stealth.si:80/announce
+
+
+
+ udp://open.demonii.si:1337/announce
+
+
+
+ udp://denis.stalker.upeer.me:6969/announce
+
+
+
+ http://vps02.net.orel.ru:80/announce
+
+
+
+ http://open.acgnxtracker.com:80/announce
+
+
+
+ udp://tracker4.itzmx.com:2710/announce
+
+
+
+ udp://tracker.moeking.me:6969/announce
+
+
+
+ udp://tracker.cyberia.is:6969/announce
+
+
+
+ udp://retracker.netbynet.ru:2710/announce
+
+
+
+ udp://retracker.lanta-net.ru:2710/announce
+
+
+
+ udp://hk1.opentracker.ga:6969/announce
+
+
+
+ http://re-tracker.uz:80/announce
+
+
+
+ udp://tracker.uw0.xyz:6969/announce
+
+
+
+ udp://tracker.trackton.ga:7070/announce
+
+
+
+ udp://bt.oiyo.tk:6969/announce
+
+
+
+ http://0d.kebhana.mx:443/announce
+
+
+
+ udp://tracker.port443.xyz:6969/announce
+
+
+
+ udp://tracker.filemail.com:6969/announce
+
+
+
+ https://tracker.fastdownload.xyz:443/announce
+
+
+
+ https://t.quic.ws:443/announce
+
+
+
+ https://opentracker.xyz:443/announce
+
+
+
+ http://tracker.port443.xyz:6969/announce
+
+
+
+ http://torrent.nwps.ws:80/announce
+
+
+
+ http://opentracker.xyz:80/announce
+
+
+
+ http://open.trackerlist.xyz:80/announce
+
+
+
+ udp://zephir.monocul.us:6969/announce
+
+
+
+ udp://tracker.skynetcloud.tk:6969/announce
+
+
+
+ udp://tracker.nyaa.uk:6969/announce
+
+
+
+ udp://tracker.iamhansen.xyz:2000/announce
+
+
+
+ udp://tracker.filepit.to:6969/announce
+
+
+
+ udp://tracker.dyn.im:6969/announce
+
+
+
+ udp://torrentclub.tech:6969/announce
+
+
+
+ udp://retracker.sevstar.net:2710/announce
+
+
+
+ udp://pubt.in:2710/announce
+
+
+
+ https://tracker.gbitt.info:443/announce
+
+
+
+ https://1.tracker.eu.org:443/announce
+
+
+
+ http://tracker4.itzmx.com:2710/announce
+
+
+
+ http://tracker.gbitt.info:80/announce
+
+
+
+ http://tracker.bz:80/announce
+
+
+
+ http://torrentclub.tech:6969/announce
+
+
+
+ http://t.nyaatracker.com:80/announce
+
+
+
+ http://sub4all.org:2710/announce
+
+
+
+ http://open.acgtracker.com:1096/announce
+
+
+
+ wss://tracker.openwebtorrent.com:443/announce
+
+
+
+ wss://tracker.fastcast.nz:443/announce
+
+
+
+ udp://tracker.tvunderground.org.ru:3218/announce
+
+
+
+ udp://tracker.novg.net:6969/announce
+
+
+
+ udp://tracker.kamigami.org:2710/announce
+
+
+
+ udp://tracker.justseed.it:1337/announce
+
+
+
+ udp://retracker.baikal-telecom.net:2710/announce
+
+
+
+ udp://packages.crunchbangplusplus.org:6969/announce
+
+
+
+ udp://chihaya.toss.li:9696/announce
+
+
+
+ udp://a.leopard-raws.org:6969/announce
+
+
+
+ https://tracker.vectahosting.eu:2053/announce
+
+
+
+ http://tracker.tvunderground.org.ru:3218/announce
+
+
+
+ http://tracker.torrentyorg.pl:80/announce
+
+
+
+ http://tracker.tfile.me:80/announce
+
+
+
+ http://tracker.openzim.org:80/announce
+
+
+
+ http://tracker.open-tracker.org:1337/announce
+
+
+
+ http://tracker.novg.net:6969/announce
+
+
+
+ http://t.acg.rip:6699/announce
+
+
+
+ http://share.camoe.cn:8080/announce
+
+
+
+ http://retracker.mgts.by:80/announce
+
+
+
+ http://peersteers.org:80/announce
+

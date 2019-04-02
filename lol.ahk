@@ -27,7 +27,7 @@ CrusaderSkillStart(){
 	v_skill_flag:=1
 	;SetTimer, Label1, 100 ;动作条技能1键600毫秒连点， 
 	SetTimer, Label2, 100 ;动作条技能2键600毫秒连点 
-	SetTimer, Label3, 100 ;动作条技能3键600毫秒连 
+	;SetTimer, Label3, 100 ;动作条技能3键600毫秒连 
 	;SetTimer, Label4, 100 ;动作条技能4键600毫秒连点，对应勇士技能，600可改动
 	;SetTimer, MouseLButton, 150 ;鼠标左键150毫秒连点，150可改动
 	;SetTimer, MouseRButton, 500 ;鼠标右键600毫秒连点关闭钢甲自动按，off可改动
@@ -48,13 +48,15 @@ CrusaderSkillStop(){
 	return
 }
  v_skill_flag:=1
-  
+/**  
 $r::
 {
 		CrusaderSkillStop()
 		Send, R
 }
 return
+
+ */
 $XButton1:: ; 技能开关键， 
 { 
 global v_skill_flag

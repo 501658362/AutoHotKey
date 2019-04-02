@@ -9,7 +9,7 @@
 		
 
 		send, {C}
-		Sleep, 50
+		Sleep, 66
 		
 		PixelGetColor, color, 1762, 275
 		;MsgBox, %color%
@@ -19,16 +19,28 @@
 			showMsg("金钟")
 		}
 		
-		
 		Click, Right, 1531, 837
+		Sleep, 20
 		Click, Right, 1580, 838
+		Sleep, 20
 		Click, Right, 1630, 838
+		Sleep, 20
 		Click, Right, 1680, 838
+		Sleep, 20
 		Click, Right, 1730, 838
+		Sleep, 20
 		Click, Right, 1780, 838
+		Sleep, 20
+		Click, Right, 1780, 782
+		Sleep, 20
+		send,{alt down}
 		Click, Right, 1830, 838
-		Click, Right, 1830, 784
+		Sleep, 20
 		Click, Right, 1880, 838
+		Sleep, 20
+		send,{alt up}
+	 
+	 
 		send, {C}
 		BlockInput off
 		moveToCenter()
