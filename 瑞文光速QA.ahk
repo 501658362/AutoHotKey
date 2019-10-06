@@ -16,7 +16,7 @@ ExitApp
  
 }
 
-~q::
+~m::
 {
 
 	;MouseGetPos, xpos, ypos 
@@ -30,13 +30,23 @@ ExitApp
 }
 return
 
-~m::
+~s::
 {
+Sleep, 300
+;MouseGetPos, xpos, ypos 
+;MsgBox, The cursor is at X%xpos% Y%ypos%.
 
+	xpos:=xpos+200
+	ypos:=ypos+200
+	;msgbox, %xpos% + %ypos%
+	;Click, right, %xpos%, %ypos%
+	
 	MouseMove, 200,200,2, R
+	
 	Click right
 	Sleep, 50
 	MouseMove, -200,-200,1, R
+	;Click right
 	Send,a
 	Click
 	;MouseGetPos, xpos, ypos 
